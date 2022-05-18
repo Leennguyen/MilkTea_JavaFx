@@ -14,4 +14,8 @@ public class DbConnect {
             System.out.println("error" +e);
         }
     }
+
+    public Connection getConnection() {
+        return connection;
+    }
 }
